@@ -2,9 +2,9 @@
 export const quizQuestions_1 = {
   questions: [
     {
-      question: 'Which function is used to serialize an object into a JSON string in JavaScript?',
-      choices: ['stringify()', 'parse()', 'convert()', 'None of the above'],
-      correctAnswer: 'stringify()',
+      question: 'What differentiates a functional component in React from a standard JavaScript function?',
+      choices: ['Functional components accept arguments called "props"', 'Functional components can return JSX', 'Functional components are written using ES6 syntax', 'Functional components are executed during the build process'],
+      correctAnswer: 'Functional components can return JSX',
     },
     {
       question: 'Which of the following keywords is used to define a variable in JavaScript?',

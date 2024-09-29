@@ -291,16 +291,17 @@ section.home-section h2 {
   text-align: center;
 }
 
-<<<<<<< HEAD
-=======
-
-
-
-
->>>>>>> d2b777d2af4b6cdad4cf3099bb9bbdbd9b6a0113
 section.home-section .two-cols { display: flex; flex-wrap: wrap }
 
 section.home-section .two-cols > * { flex: 1; }
+
+
+@media (max-width: 768px) {
+  section.home-section .two-cols {
+    display: block ;
+    min-width: 100%;
+  }
+}
 
 section.home-section p { 
   color: #fff;
@@ -314,10 +315,9 @@ section.home-section p b {
   color: #fff;
   padding: 1px 10px;
   background-color: var(--trend-900);
-  font-size: var(--font-size-base);
   font-weight: 700;
   margin-bottom: 20px;
-  font-size: calc(var(--font-size-base) * 0.8);
+  font-size: calc(var(--font-size-base) * 0.9);
 }
 
 section.home-section p a:link, section.home-section p a:visited { 

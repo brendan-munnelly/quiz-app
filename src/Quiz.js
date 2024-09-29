@@ -17,14 +17,10 @@ import { Link } from 'react-router-dom';
 import { useParams } from 'react-router-dom';
 import './Quiz.css'
 
-<<<<<<< HEAD
 
 
 const Quiz = () => {
   const [userAnswers, setUserAnswers] = useState([]);
-=======
-const Quiz = () => {
->>>>>>> d2b777d2af4b6cdad4cf3099bb9bbdbd9b6a0113
     const { quizId } = useParams();
 
     const [activeQuestion, setActiveQuestion] = useState(0)
@@ -81,7 +77,6 @@ const Quiz = () => {
     const { question, choices, correctAnswer } = questions[activeQuestion]
   
     const onClickNext = () => {
-<<<<<<< HEAD
       setUserAnswers([...userAnswers, {
           question,
           userAnswer: choices[selectedAnswerIndex],
@@ -89,8 +84,6 @@ const Quiz = () => {
           isCorrect: choices[selectedAnswerIndex] === correctAnswer
       }]);
 
-=======
->>>>>>> d2b777d2af4b6cdad4cf3099bb9bbdbd9b6a0113
       setSelectedAnswerIndex(null)
       setResult((prev) =>
         selectedAnswer
@@ -120,12 +113,9 @@ const Quiz = () => {
   
     const addLeadingZero = (number) => (number > 9 ? number : `0${number}`)
   
-<<<<<<< HEAD
 
 
     
-=======
->>>>>>> d2b777d2af4b6cdad4cf3099bb9bbdbd9b6a0113
     return (
       <>
       <Header />
@@ -150,7 +140,7 @@ const Quiz = () => {
                 </ul>
                 <div className="flex-right">
                   <button onClick={onClickNext} disabled={selectedAnswerIndex === null}>
-                    {activeQuestion === questions.length - 1 ? 'Finish' : 'Next'}
+                    {activeQuestion === questions.length - 1 ? 'Finish' : 'Next ' + String.fromCharCode(9654) }
                   </button>
                 </div>
               </div>
@@ -170,9 +160,7 @@ const Quiz = () => {
                   <div className="two-cols-result">
                       <div><p>Wrong Answers:</p></div>
                       <div><p><span>{result.wrongAnswers}</span></p></div>
-                  </div>
-<<<<<<< HEAD
-                
+                  </div>                
 
                   <h4>Detailed Results:</h4>
                     {userAnswers.map((answer, index) => (
@@ -201,11 +189,6 @@ const Quiz = () => {
 
 
 
-=======
-                  <p className="return-home-page"><Link to="/">Return to Home Page</Link></p>
-                  
-               </div>
->>>>>>> d2b777d2af4b6cdad4cf3099bb9bbdbd9b6a0113
             )}
          </div>
          </div>

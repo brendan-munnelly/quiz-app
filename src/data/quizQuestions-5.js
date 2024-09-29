@@ -2,6 +2,7 @@
 export const quizQuestions_5 = {
   questions: [
     {
+<<<<<<< HEAD
     question: "What are the two main parts of a basic HTML file?",
     choices: ["<header> and <footer>", "<head> and <body>", "<div> and <span>", "<section> and <article>"],
     correctAnswer: "<head> and <body>",
@@ -72,4 +73,56 @@ export const quizQuestions_5 = {
     correctAnswer: "Double-click the file in File Explorer or Finder",
   },
 ],
+=======
+      question: 'Which function is used to serialize an object into a JSON string in JavaScript?',
+      choices: ['stringify()', 'parse()', 'convert()', 'None of the above'],
+      correctAnswer: 'stringify()',
+    },
+    {
+      question: 'Which of the following keywords is used to define a variable in JavaScript?',
+      choices: ['var', 'let', 'var and let', 'None of the above'],
+      correctAnswer: 'var and let',
+    },
+    {
+      question: 'Which of the following methods can be used to display data in some form using JavaScript?',
+      choices: ['document.write()', 'console.log()', 'window.alert', 'All of the above'],
+      correctAnswer: 'All of the above',
+    },
+    {
+      question: 'How can a datatype be declared to be a constant type?',
+      choices: ['const', 'var', 'let', 'constant'],
+      correctAnswer: 'const',
+    },
+    {
+      question: 'Which function is used to serialize an object into a JSON string in JavaScript?',
+      choices: ['stringify()', 'parse()', 'convert()', 'None of the above'],
+      correctAnswer: 'stringify()',
+    },
+    {
+      question: 'Which of the following keywords is used to define a variable in JavaScript?',
+      choices: ['var', 'let', 'var and let', 'None of the above'],
+      correctAnswer: 'var and let',
+    },
+    {
+      question: 'Which of the following methods can be used to display data in some form using JavaScript?',
+      choices: ['document.write()', 'console.log()', 'window.alert', 'All of the above'],
+      correctAnswer: 'All of the above',
+    },
+    {
+      question: 'How can a datatype be declared to be a constant type?',
+      choices: ['const', 'var', 'let', 'constant'],
+      correctAnswer: 'const',
+    },
+    {
+      question: 'Which of the following methods can be used to display data in some form using JavaScript?',
+      choices: ['document.write()', 'console.log()', 'window.alert', 'All of the above'],
+      correctAnswer: 'All of the above',
+    },
+    {
+      question: 'How can a datatype be declared to be a constant type?',
+      choices: ['const', 'var', 'let', 'constant'],
+      correctAnswer: 'const',
+    },
+  ],
+>>>>>>> d2b777d2af4b6cdad4cf3099bb9bbdbd9b6a0113
 }

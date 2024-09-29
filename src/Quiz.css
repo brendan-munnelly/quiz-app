@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+/*  ============= WEB BROWSER RESETS ============ */
+
+>>>>>>> d2b777d2af4b6cdad4cf3099bb9bbdbd9b6a0113
 
 .quiz-container-outer {
   display: flex;
@@ -99,7 +104,11 @@
 }
 
 .result p {
+<<<<<<< HEAD
   font-size: var(--font-size-base);
+=======
+  font-size: var(--font-size-md);
+>>>>>>> d2b777d2af4b6cdad4cf3099bb9bbdbd9b6a0113
   font-weight: 400;
   color: #fff;
   margin-bottom: 20px
@@ -131,6 +140,7 @@
   transition: all 0.2s ease-in-out;
   display: inline-block;
   margin-left: 12px
+<<<<<<< HEAD
 }
 
 .question-result {
@@ -156,4 +166,6 @@ h4 {
   color: var(--white-000);
   margin-top: 30px;
   margin-bottom: 20px;
+=======
+>>>>>>> d2b777d2af4b6cdad4cf3099bb9bbdbd9b6a0113
 }

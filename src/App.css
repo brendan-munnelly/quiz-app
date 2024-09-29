@@ -291,6 +291,13 @@ section.home-section h2 {
   text-align: center;
 }
 
+<<<<<<< HEAD
+=======
+
+
+
+
+>>>>>>> d2b777d2af4b6cdad4cf3099bb9bbdbd9b6a0113
 section.home-section .two-cols { display: flex; flex-wrap: wrap }
 
 section.home-section .two-cols > * { flex: 1; }
